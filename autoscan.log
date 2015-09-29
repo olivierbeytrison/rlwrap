@@ -1,0 +1,91 @@
+autoscan: warning: missing AC_CHECK_FUNCS([alarm]) wanted by: 
+	src/signals.c:450
+autoscan: warning: missing AC_CHECK_FUNCS([dup2]) wanted by: 
+	src/pty.c:64
+	src/pty.c:66
+	src/pty.c:68
+	src/pty.c:117
+	src/pty.c:119
+autoscan: warning: missing AC_CHECK_FUNCS([gettimeofday]) wanted by: 
+	src/utils.c:461
+autoscan: warning: missing AC_CHECK_FUNCS([mkdir]) wanted by: 
+	src/main.c:619
+autoscan: warning: missing AC_CHECK_FUNCS([regcomp]) wanted by: 
+	src/string_utils.c:808
+autoscan: warning: missing AC_CHECK_FUNCS([select]) wanted by: 
+	src/utils.c:46
+	src/utils.c:111
+	src/utils.c:557
+autoscan: warning: missing AC_CHECK_FUNCS([strchr]) wanted by: 
+	src/main.c:212
+	src/main.c:949
+	src/readline.c:605
+	src/readline.c:605
+	src/rlwrap.h:103
+	src/completion.c:1607
+	src/string_utils.c:418
+	src/string_utils.c:564
+	src/string_utils.c:719
+autoscan: warning: missing AC_CHECK_FUNCS([strdup]) wanted by: 
+	src/ptytty.c:73
+	src/ptytty.c:148
+	src/ptytty.c:176
+autoscan: warning: missing AC_CHECK_FUNCS([strerror]) wanted by: 
+	src/filter.c:136
+	src/utils.c:378
+	src/utils.c:504
+autoscan: warning: missing AC_CHECK_FUNCS([strrchr]) wanted by: 
+	src/main.c:451
+	src/readline.c:685
+	src/rlwrap.h:103
+autoscan: warning: missing AC_CHECK_FUNCS([strstr]) wanted by: 
+	src/term.c:125
+	src/readline.c:820
+	src/string_utils.c:410
+	src/pty.c:375
+autoscan: warning: missing AC_CHECK_HEADERS([sys/time.h]) wanted by: 
+	src/rlwrap.h:58
+	src/rlwrap.h:62
+autoscan: warning: missing AC_FUNC_FORK wanted by: 
+	src/filter.c:100
+	src/pty.c:53
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	src/utils.c:690
+	src/completion.c:344
+	src/completion.c:415
+	src/completion.c:1140
+	src/malloc_debug.c:157
+autoscan: warning: missing AC_FUNC_STRNLEN wanted by: 
+	src/string_utils.c:61
+autoscan: warning: missing AC_TYPE_MODE_T wanted by: 
+	src/main.c:618
+autoscan: warning: missing AC_TYPE_SIZE_T wanted by: 
+	src/readline.c:481
+	src/rlwrap.h:323
+	src/rlwrap.h:327
+	src/rlwrap.h:345
+	src/rlwrap.h:346
+	src/utils.c:425
+	src/utils.c:432
+	src/utils.c:687
+	src/malloc_debug.h:4
+	src/malloc_debug.h:8
+	src/malloc_debug.h:9
+	src/string_utils.c:44
+	src/string_utils.c:55
+	src/string_utils.c:259
+	src/malloc_debug.c:86
+	src/malloc_debug.c:156
+	src/malloc_debug.c:165
+autoscan: warning: missing AC_TYPE_SSIZE_T wanted by: 
+	src/term.c:267
+autoscan: warning: missing AC_TYPE_UINT32_T wanted by: 
+	src/filter.c:207
+	src/filter.c:210
+	src/filter.c:265
+	src/filter.c:268
+autoscan: warning: missing AC_TYPE_UINT8_T wanted by: 
+	src/filter.c:193
+	src/filter.c:196
+	src/filter.c:264
+	src/filter.c:267
